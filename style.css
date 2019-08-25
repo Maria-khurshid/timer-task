@@ -1,0 +1,58 @@
+            body {
+                margin: 0%;
+                padding: 0%;
+                width: 100%;
+                background-image: url(images/timer.jpg);
+                background-attachment: fixed;
+                opacity: 0.9;
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 100%;
+            }
+            
+            button {
+                cursor: pointer;
+                padding: 10px 33px;
+                font-size: 22px;
+                background: linear-gradient(45deg, #740c0c, transparent);
+                color: white;
+                border: none;
+            }
+            
+            .timer {
+                display: flex;
+                justify-content: center;
+            }
+            
+            p {
+                color: white;
+                margin-left: 1em;
+                font-size: 4em;
+                padding: 10px 10px;
+                background: linear-gradient(45deg, #740c0c, transparent);
+            }
+            
+            .btn {
+                display: flex;
+                justify-content: center;
+            }
+            /* input {
+                line-height: 2em;
+                height: 2em;
+                border: 1px solid rgba(0, 0, 0, .2);
+                vertical-align: middle;
+                border-radius: 0;
+                padding: 0 .5em;
+                background: #fff;
+                padding: 11px 1.5em;
+            } */
+            /* 
+            button,
+            input,
+            optgroup,
+            select,
+            textarea {
+                color: inherit;
+                font: inherit;
+                margin: 0;
+            } */
